@@ -50,7 +50,7 @@ const Basket = () => {
                                         })} />
                                         <input
                                             className="mb-32 border-2 border-[#010049] text-[#010049] rounded w-full py-2 px-3 outline-none my-2"
-                                            type="tel" placeholder="Телефон*" {...register("Mobile number", {
+                                            type="tel" placeholder="Телефон*" {...register("MobileNumber", {
                                             required: true,
                                             minLength: 6
                                         })} />
